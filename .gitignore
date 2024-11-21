@@ -1,0 +1,4 @@
+node_modules/
+
+# Protect the goods
+good_output.json
