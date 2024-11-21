@@ -45,3 +45,10 @@ Check scoring function
 ```bash
 npx tsx score.ts
 ```
+
+### Additional Notes
+
+1. To update the lowest acceptable address score, change the number inputted to the `filter()` function at the bottom of `create.ts`.
+   - `limit` = lowest acceptable score - 1
+3. To update the length of the string you pass as salt, change the `lengths` variable inside the `create()` function.
+4. To update the characters in the string passed as salt, change the `characters` variable inside the `getString()` function.
